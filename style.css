@@ -1,0 +1,33 @@
+.own {
+    margin-top: 10%;
+}
+.own {
+    height: 0;
+    width: 0;
+    border-left: solid 100px transparent;
+    border-right: solid 100px transparent;
+    border-bottom: solid 70px seagreen;
+    transform: rotate(35deg);
+}
+.own::before{
+    position: absolute;
+    display: block;
+    content: '';
+    top: -45px;
+    left: -63.5px;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    border-bottom: solid 80px seagreen;
+    transform: rotate(-35deg);
+}
+.own::after{
+    position: absolute;
+    display: block;
+    content: '';
+    top: 3px;
+    left: -105px;
+    border-left: solid 100px transparent;
+    border-right: solid 100px transparent;
+    border-bottom: solid 70px seagreen;
+    transform: rotate(-70deg);
+}
